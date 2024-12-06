@@ -71,10 +71,15 @@ ___
 
 ### Credits
 The development team of **Eastern Wonders**:
+
 • Aseel Keleeb
+
 • Jana Alomairi
+
 • Jood Alsofyani
+
 • Jana Alharthi
+
 • Futun Alharthi
 
 ___
