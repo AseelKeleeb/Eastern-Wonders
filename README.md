@@ -1,7 +1,9 @@
 # Eastern Wonders
 Welcome to Eastern Wonders, an interactive website designed to transport you to the enchanting realms of Japan, Thailand, Korea, and China. This immersive platform offers a captivating digital journey, exploring the unique attractions and hidden gems of these East Asian countries.
 
-Developed by Jana Alomairi, Jood Hassan Al-Sofyani, Jana Atiah AlHarthi, Futun Faisal Alharthi, and Aseel Abdulrahman Keleeb as part of the Internet Applications course at Umm Al-Qura University (UQU), Eastern Wonders aims to inspire curiosity and motivate users to embark on real-world explorations through a visually engaging and interactive web experience.
+Developed as part of the Internet Applications course at Umm Al-Qura University (UQU), Eastern Wonders was inspired by our team’s shared dream of traveling the world. We believe the world is vast, beautiful, and filled with unique and extraordinary places to explore. However, covering the entire world in one website proved challenging, so we decided to focus on our own beautiful continent: Asia. While many websites highlight the well-known attractions of America and Europe—from New York to Paris and London—we wanted to showcase the hidden treasures of Asia, particularly East Asia, which often go unnoticed. Eastern Wonders was created to fill that gap, offering users a chance to experience and explore East Asia’s beauty, culture, and extraordinary attractions as if they were traveling there themselves.
+
+Come and join our journey as we travel through East Asia together, exploring the stunning architecture, vibrant cultures, and breathtaking natural landscapes. Let Eastern Wonders guide you through the hidden gems of this captivating region, offering a virtual experience that feels like a real adventure.
 
 ### Technical Details
 **HTML** was used to structure the website’s content, with each team member contributing equally to creating the required sections. Initially, the focus was on ensuring that the pages were well-structured and consistent, without the use of CSS, to provide a clear foundation before adding design elements.
