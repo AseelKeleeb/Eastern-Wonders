@@ -57,11 +57,17 @@ To summarize, the website consists of a total of 11 pages, which are as follows:
 **11. Evaluation Page:**
 > Contains a star rating system for users to rate their experience.
 
+___
+
 ### Testing
 The website was tested across popular browsers, including **Google Chrome**, **Microsoft Edge**, and **Safari**, ensuring responsive design, smooth navigation, consistent layout, and a seamless user experience across devices. This testing ensured that the website functions optimally regardless of the browser used.
 
+___
+
 ### Limitations
 While we aimed for comprehensive functionality, time constraints, and project requirements limited the implementation of some advanced features, such as designing and connecting a database to our website. Future enhancements could include more interactive quizzes, improved user feedback systems, additional animations using JavaScript, and the design and integration of a database to store user data and feedback more efficiently.
+
+___
 
 ### Credits
 The development team of **Eastern Wonders**:
@@ -70,6 +76,8 @@ The development team of **Eastern Wonders**:
 • Jood Alsofyani
 • Jana Alharthi
 • Futun Alharthi
+
+___
 
 ### Acknowledgments
 Special thanks to **Dr. Dalia Nahhas** and **Dr. Hind Alhashimi** for their invaluable guidance and support throughout this project. Their expertise in web development and dedication to teaching have significantly contributed to our learning journey and the successful completion of this project.
