@@ -22,7 +22,8 @@ Once the quiz is completed, users can navigate to the **Evaluation Page** using 
 
 The project was developed using Visual Studio Code, which served as the primary development environment. This tool allowed the team to efficiently manage and collaborate on the codebase throughout the project's lifecycle.
 
-
+___
+### Website Structure
 
 To summarize, the website consists of a total of 11 pages, which are as follows:
 
