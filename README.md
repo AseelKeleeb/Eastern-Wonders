@@ -5,7 +5,7 @@ Developed as part of the Internet Applications course at Umm Al-Qura University 
 
 Come and join our journey as we travel through East Asia together, exploring the stunning architecture, vibrant cultures, and breathtaking natural landscapes. Let Eastern Wonders guide you through the hidden gems of this captivating region, offering a virtual experience that feels like a real adventure.
 
-___
+<hr style="border: 0.5px solid #ccc;">
 
 ### Technical Details
 **HTML** was used to structure the website’s content, with each team member contributing equally to creating the required sections. Initially, the focus was on ensuring that the pages were well-structured and consistent, without the use of CSS, to provide a clear foundation before adding design elements.
