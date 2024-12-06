@@ -67,8 +67,12 @@ The website was tested across popular browsers, including **Google Chrome**, **M
 
 ___
 
-### Limitations
-While we aimed for comprehensive functionality, time constraints, and project requirements limited the implementation of some advanced features, such as designing and connecting a database to our website. Future enhancements could include more interactive quizzes, improved user feedback systems, additional animations using JavaScript, and the design and integration of a database to store user data and feedback more efficiently.
+### Future Improvements
+While the website successfully delivers an engaging and interactive experience, there are several enhancements we plan to implement in the future. Currently, the JavaScript code is embedded within the HTML files, which can make the codebase less modular and harder to maintain. A key improvement would be to create separate .js files for better organization and scalability.
+
+Additionally, we aim to design and integrate a database to store data and user feedback more efficiently. This would allow us to manage user interactions dynamically and improve the evaluation system. Future enhancements could also include more interactive quizzes, advanced animations using JavaScript, and an improved feedback system to better engage users and enhance their overall experience.
+
+These improvements will ensure that the website continues to evolve and provide a seamless, modern, and highly interactive user experience.
 
 ___
 
