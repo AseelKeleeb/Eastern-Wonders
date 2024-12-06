@@ -22,17 +22,27 @@ The project was developed using Visual Studio Code, which served as the primary 
 
 To summarize, the website consists of a total of 11 pages, which are as follows:
 
-**1. Home Page:** The introductory page with a slideshow linking to the respective country pages.
-**2. Introduction to China Page:** General information about China, including sections such as About, Culture and Society, Language, Nature and Wildlife, Strange Attractions, and a Conclusion.
-**3. Strangest Places in China Page:** Highlights some of the extraordinary attractions in China.
-**4. Introduction to Japan Page:** General information about Japan, following the same sections as China.
-**5. Strangest Places in Japan Page:** Highlights some of the extraordinary attractions in Japan.
-**6. Introduction to Thailand Page:** General information about Thailand, following the same sections as the previous countries.
-**7. Strangest Places in Thailand Page:** Highlights some of the extraordinary attractions in Thailand.
-**8. Introduction to Korea Page:** General information about Korea, following the same sections as the other countries.
-**9. Strangest Places in Korea Page:** Highlights some of the extraordinary attractions in Korea.
-**10. Quiz Page:** An interactive quiz to test users' knowledge about the countries they’ve explored.
-**11. Evaluation Page:** Contains a star rating system for users to rate their experience.
+> **1. Home Page:** The introductory page with a slideshow linking to the respective country pages.
+
+> **2. Introduction to China Page:** General information about China, including sections such as About, Culture and Society, Language, Nature and Wildlife, Strange Attractions, and a Conclusion.
+
+> **3. Strangest Places in China Page:** Highlights some of the extraordinary attractions in China.
+
+> **4. Introduction to Japan Page:** General information about Japan, following the same sections as China.
+
+> **5. Strangest Places in Japan Page:** Highlights some of the extraordinary attractions in Japan.
+
+> **6. Introduction to Thailand Page:** General information about Thailand, following the same sections as the previous countries.
+
+> **7. Strangest Places in Thailand Page:** Highlights some of the extraordinary attractions in Thailand.
+
+> **8. Introduction to Korea Page:** General information about Korea, following the same sections as the other countries.
+
+> **9. Strangest Places in Korea Page:** Highlights some of the extraordinary attractions in Korea.
+
+> **10. Quiz Page:** An interactive quiz to test users' knowledge about the countries they’ve explored.
+
+> **11. Evaluation Page:** Contains a star rating system for users to rate their experience.
 
 ### Testing
 The website was tested across popular browsers, including **Google Chrome**, **Microsoft Edge**, and **Safari**, ensuring responsive design, smooth navigation, consistent layout, and a seamless user experience across devices. This testing ensured that the website functions optimally regardless of the browser used.
