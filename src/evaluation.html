@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eastern Wonders</title>
+  <link rel="stylesheet" type="text/css" href="css code.css">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="Home.html" class="w3-bar-item w3-button">Welcome to Eastern Wonders</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="Home.html" class="w3-bar-item w3-button">Home</a>
+        <a href="china1.html" class="w3-bar-item w3-button">China</a>
+        <a href="japan page 1.html" class="w3-bar-item w3-button">Japan</a>
+        <a href="Thai 1.html" class="w3-bar-item w3-button">Thailand</a>
+        <a href="SouthKorea.html" class="w3-bar-item w3-button">Korea</a>
+        <a href="quizzes.html" class="w3-bar-item w3-button">Quizzes</a>
+        <a href="evaluation.html" class="w3-bar-item w3-button">Evaluation</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="container gallery-slider">
+    <div class="container" align="center">
+      <h1>Rate your experience</h1>
+      <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" />
+        <label for="star5"></label>
+        <input type="radio" id="star4" name="rating" value="4" />
+        <label for="star4"></label>
+        <input type="radio" id="star3" name="rating" value="3" />
+        <label for="star3"></label>
+        <input type="radio" id="star2" name="rating" value="2" />
+        <label for="star2"></label>
+        <input type="radio" id="star1" name="rating" value="1" />
+        <label for="star1"></label>
+
+      </div>
+      <br>
+      <input id="submitBtn" type="submit" class="submit" value="submit">
+    </div>
+    <br>
+    <div class="scroll-container">
+      <img src="images/4.png" width="500" alt="China">
+      <img src="images/1.png" width="500" alt="Japan">
+      <img src="images/3.png" width="500" alt="Thailand">
+      <img src="images/2.png" width="500" alt="Korea">
+    </div>
+  </section>
+
+  <footer class="w3-center w3-light-grey w3-padding-32">
+    <div class="container">
+      <div class="footer-form-two">
+        <form method="POST" action="https://www.response-o-matic.com/mail.php" class="footer-form-container-two">
+          <h4>Subscribe Newsletters</h4>
+          <div>
+            <input type="hidden" name="acctid" id="acctid" value="r49vl2bp98vynuti" />
+            <input type="hidden" name="formid" id="formid" value="2005489" />
+            <input type="hidden" name="required_vars" id="required_vars" value="email" />
+          </div>
+          <div class="footer-form-block-two"><input class="footer-form-input" maxlength="256" name="email"
+              placeholder="Enter your email" type="email" required=""><input type="submit"
+              class="button-primary footer-form-button w-button" value="Subscribe Now">
+          </div>
+        </form>
+      </div>
+      <div id="lastModified"></div>
+        <script>
+          document.getElementById('lastModified').innerHTML = "This page was last modified on: " + document.lastModified;
+        </script>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script>
+  const submitBtn = document.getElementById('submitBtn');
+  const ratingInputs = document.querySelectorAll('.rating input[type="radio"]');
+
+  submitBtn.addEventListener('click', function () {
+    let selectedRating = null;
+
+    for (let i = 0; i < ratingInputs.length; i++) {
+      if (ratingInputs[i].checked) {
+        selectedRating = ratingInputs[i].value;
+        break;
+      }
+    }
+
+    if (selectedRating !== null) {
+      alert(`Selected rating: ${selectedRating}. Thank you very much!`);
+    } else {
+      alert('Please select a rating.');
+    }
+  });
+</script>
+
+</html>

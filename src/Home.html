@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eastern Wonders</title>
+  <link rel="stylesheet" type="text/css" href="css code.css">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="Home.html" class="w3-bar-item w3-button">Welcome to Eastern Wonders</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="Home.html" class="w3-bar-item w3-button">Home</a>
+        <a href="china1.html" class="w3-bar-item w3-button">China</a>
+        <a href="japan page 1.html" class="w3-bar-item w3-button">Japan</a>
+        <a href="Thai 1.html" class="w3-bar-item w3-button">Thailand</a>
+        <a href="SouthKorea.html" class="w3-bar-item w3-button">Korea</a>
+        <a href="quizzes.html" class="w3-bar-item w3-button">Quizzes</a>
+        <a href="evaluation.html" class="w3-bar-item w3-button">Evaluation</a>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="container gallery-slider">
+
+    <div class="gallery-wrapper">
+      <div class="gallery-block">
+        <h3 class="heading">Welcome to<br>Eastern Wonders</h3>
+        <p>The captivating online tour that will transport you to the enchanting realms of East Asia</p>
+      </div>
+      <div class="mySlides ">
+        <div class="numbertext">1 / 4</div>
+        <a href="china1.html"><img src="images/G.jpeg" style="width: 200%;"></a>
+        <div class="text">China</div>
+      </div>
+
+      <div class="mySlides ">
+        <div class="numbertext">2 / 4</div>
+        <a href="japan page 1.html"><img src="images/japan-kyoto.png" style="width:200%"></a>
+        <div class="text">Japan</div>
+      </div>
+
+      <div class="mySlides ">
+        <div class="numbertext">3 / 4</div>
+        <a href="Thai 1.html"><img src="images/Thai.png" style="width:200%"></a>
+        <div class="text">Thailand</div>
+      </div>
+
+      <div class="mySlides ">
+        <div class="numbertext">4 / 4</div>
+        <a href="SouthKorea.html"><img src="images/Korea.png" style="width:200%"></a>
+        <div class="text">Korea</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+  </section>
+
+  <footer class="w3-center w3-light-grey w3-padding-32">
+    <div class="container">
+      <div class="footer-form-two">
+        <form method="POST" action="https://www.response-o-matic.com/mail.php" class="footer-form-container-two">
+          <h4>Subscribe Newsletters</h4>
+          <div>
+            <input type="hidden" name="acctid" id="acctid" value="r49vl2bp98vynuti" />
+            <input type="hidden" name="formid" id="formid" value="2005489" />
+            <input type="hidden" name="required_vars" id="required_vars" value="email" />
+          </div>
+          <div class="footer-form-block-two"><input class="footer-form-input" maxlength="256" name="email"
+              placeholder="Enter your email" type="email" required=""><input type="submit"
+              class="button-primary footer-form-button w-button" value="Subscribe Now">
+          </div>
+        </form>
+      </div>
+      <div id="lastModified"></div>
+        <script>
+          document.getElementById('lastModified').innerHTML = "This page was last modified on: " + document.lastModified;
+        </script>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        if (dots.length > 0) {
+            dots[slideIndex - 1].className += " active";
+        }
+    }
+
+    // Auto slide change every 2 seconds
+    setInterval(function() {
+        plusSlides(1);
+    }, 2000);
+  </script>
+</body>
+
+
+</html>
